@@ -7,7 +7,7 @@ RUN useradd -m -s /bin/bash zeduser && \
     mkdir -p /home/zeduser/data /home/zeduser/ROS2_ws && \
     chown -R zeduser:zeduser /home/zeduser
 
-#USER zeduser
+USER zeduser
 
 WORKDIR /home/zeduser
 
